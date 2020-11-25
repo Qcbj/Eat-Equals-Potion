@@ -1,0 +1,5 @@
+name: EatEqualsPotion
+version: 1.0
+author: Qcbj
+main: me.qcbj.eatequalspotion.EatEqualsPotion
+api-version: 1.16
