@@ -26,7 +26,7 @@ public class EatEqualsPotion extends JavaPlugin implements Listener {
         // Player player = event.getPlayer();
 
         int rnd = ThreadLocalRandom.current().nextInt(PotionEffectType.values().length);
-        event.getPlayer().addPotionEffect(new PotionEffect(PotionEffectType.values()[rnd], 200, 1));
+        event.getPlayer().addPotionEffect(new PotionEffect(PotionEffectType.values()[rnd], 200, 0));
     }
 
 }
